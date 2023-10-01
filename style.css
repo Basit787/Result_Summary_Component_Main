@@ -35,18 +35,23 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.685);
     font-family: 'Hanken Grotesk', sans-serif;
-    margin: 8px 0px;
+    margin: 10px;
 }
-
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
-    width: 120px;
+    height: 125px;
+    width: 125px;
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    margin: 23px 25px;
+    align-content: center;
+    margin: 15px;
 }
 
 .total{
@@ -208,7 +213,6 @@
     .circle{
         height: 150px;
         width: 150px;
-        margin: 25px 80px;
     }
     .aside2 h1{
         font-size: 30px;
